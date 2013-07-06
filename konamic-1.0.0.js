@@ -3,8 +3,8 @@
       konami = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
 
   var enqueue = function(key, goal, success) {
-    if(goal[index] === key){
-      if(++index === goal.length) {
+    if (goal[index] === key) {
+      if (++index === goal.length) {
         success();
         index = 0;
       }
